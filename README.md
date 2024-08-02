@@ -12,6 +12,31 @@ This is a simple Hangman game built using React. The game allows users to guess 
 6. The game is won if the user correctly guesses all the letters in the word before the hangman is fully drawn.
 7. The user can restart the game at any time.
 
+## Installation
+
+To install and run this application on your local machine, follow these steps:
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+    cd YOUR-REPOSITORY
+    ```
+
+2. **Install the dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server**:
+
+    ```bash
+    npm start
+    ```
+
+4. Open your browser and navigate to `http://localhost:3000` to play the game.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
