@@ -17,7 +17,7 @@ function App() {
 
   // Fetch words from Dictionary.txt on component mount
   useEffect(() => {
-    fetch("/Dictionary.txt")
+    fetch("/dictionary.txt")
       .then((response) => response.text())
       .then((text) => {
         const wordsArray = text
