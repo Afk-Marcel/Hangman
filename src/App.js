@@ -5,7 +5,6 @@ import LetterInput from "./components/LetterInput";
 import HangmanGraphic from "./components/HangmanGraphic";
 import RestartButton from "./components/RestartButton";
 import Help from "./components/Help";
-import Dictionary from "./dictionary.txt";
 import { Container, Row, Col } from "react-bootstrap";
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
 
   // Fetch words from Dictionary.txt on component mount
   useEffect(() => {
-    fetch(Dictionary)
+    fetch("/Dictionary.txt")
       .then((response) => response.text())
       .then((text) => {
         const wordsArray = text
