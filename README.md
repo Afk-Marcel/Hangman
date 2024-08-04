@@ -1,3 +1,42 @@
+# Hangman Game
+
+This is a simple Hangman game built using React. The game allows users to guess a randomly selected word letter-by-letter. Too many incorrect guesses result in loss of the game, depicted by a hangman graphic. The game includes features such as user interaction, state synchronization between components, and an option to restart the game.
+
+## Game Rules
+
+1. A random word is selected from a pre-defined dictionary.
+2. The user guesses letters one at a time.
+3. Correct guesses reveal the letter in the word.
+4. Incorrect guesses add parts to the hangman graphic.
+5. The game is lost if the hangman is fully drawn (11 incorrect guesses).
+6. The game is won if the user correctly guesses all the letters in the word before the hangman is fully drawn.
+7. The user can restart the game at any time.
+
+## Installation
+
+To install and run this application on your local machine, follow these steps:
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/Afk-Marcel/Hangman.git
+    cd YOUR-REPOSITORY
+    ```
+
+2. **Install the dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server**:
+
+    ```bash
+    npm start
+    ```
+
+4. Open your browser and navigate to `http://localhost:3000` to play the game.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
