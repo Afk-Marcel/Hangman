@@ -7,7 +7,7 @@ const LetterInput = ({ handleGuess, guessedLetters }) => {
 
   // Handle input change
   const handleChange = (e) => {
-    setLetter(e.target.value.toUpperCase());
+    setLetter(e.target.value.toLowerCase());
   };
 
   // Handle form submission
